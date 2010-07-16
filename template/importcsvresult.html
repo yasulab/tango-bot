@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>import csv form</title>
+    <style type="text/css">
+    </style>
+  </head>
+  <body>
+    <a href="./importcsv">フォームへ戻る </a><br>
+    <br>
+    名前 | 年齢 | 誕生日<br>
+    {% for val in alllist %}
+    {{ val.name }} | {{ val.age }} | {{ val.birthday }}<br>
+    {% endfor %}
+  </body>
+</html>

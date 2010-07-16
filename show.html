@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CSVファイルのアップロード</title>
+  </head>
+  <body>
+    <table><tr><th>ID</th><th>文字数</th><th>読み方</th><th>単語</th><th>説明</th><th>品詞</th></tr>
+      {% for m in messages %}
+      <tr><th>{{m.wid}}</th><th>{{m.cnt}}</th><th>{{m.reading}}</th><th>{{m.word}}</th><th>{{m.dscr}}</th><th>{{m.ctgr}}</th></tr>
+      {% endfor %}
+    </table>
+    <hr />
+  </body>
+</html>

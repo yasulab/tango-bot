@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>import csv form</title>
+    <style type="text/css">
+    </style>
+  </head>
+  <body>
+    ファイル内文字コードはShift_JISとしてください。<br>
+    <br>
+    CSVフォーマットは以下の通り。<br>
+    名前,年齢,誕生日<br>
+    <form method="post" action="./importcsv" enctype="multipart/form-data">
+      <input type="file" name="csvfile">
+      <input type="submit" value="インポート">
+    </form>
+  </body>
+</html>

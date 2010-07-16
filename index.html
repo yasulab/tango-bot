@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <a href="{{url}}">{{login_or_out}}</a>
+    <form action="/add">
+      メッセージ:<input name="content"><button>送信</button>
+    </form><hr>
+    <a href="/">すべてのメッセージ</a>
+    <a href="/?myMessageOnly=1">あなたのメッセージのみ</a>
+    <table>
+      {% for message in messages %}
+      <tr>
+	<td>{{message.author}}曰く:</td>
+	<td>「{{message.content|escape}}」 - {{message.date}}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </body>
+</html>

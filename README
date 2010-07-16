@@ -1,15 +1,14 @@
 This bot runs in the following ways.
 
-1. Search tweets using 'search_term' in Twitter.
+1. Select some words from Database on Google App Engine
 
-2. Re-tweet the tweets.
+2. Tweet the words on 'tango_bot'.
 
-In example, 'search_term' is 'Cafe Miyama',
-and you can see how it behaves by checking the following account.
+You can see what this bot tweets by visiting following URL:
+    http://twitter.com/tango_bot
 
-http://twitter.com/cafemiyamabot
-
-Enjoy developing your own twitter bot!
+This bot is a sub project branched from 'tango!' project:
+    http ://tango-old.appspot.com/
 
 Yohei Yasukawa
 yasu1000@gmail.com
