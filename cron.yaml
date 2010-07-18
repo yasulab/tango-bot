@@ -1,5 +1,9 @@
 cron:
-- description: tweet_tango
+- description: hourly_tweet
   url: /cron/tweet
   schedule: every 60 minutes
+  timezone: Asia/Tokyo
+- description: reply_service
+  url: /cron/reply
+  schedule: every 5 minutes
   timezone: Asia/Tokyo
