@@ -4,11 +4,19 @@ This bot runs in the following ways.
 
 2. Tweet the words on 'tango_bot'.
 
-You can see what this bot tweets by visiting following URL:
+Also, when you send a particular topic to '@tango_bot TOPIC' on Twitter,
+this bot will reply to you some words combined the topic with other word you can't expect.
+
+For example, if @yasu_ninety9 tweets '@tango_bot 言葉',
+you will receive the words like
+'@yasu_ninety9 海浜言葉 実の父言葉 綿―言葉 えいさあ言葉 親犬言葉 騒ぎ言葉 和ます言葉 講演会言葉'
+in a few minutes.
+
+For details, you can see what this bot has tweeted by visiting following URL:
     http://twitter.com/tango_bot
 
-This bot is a sub project branched from 'tango!' project:
-    http ://tango-old.appspot.com/
+This bot is a subset of 'tango!' project:
+    http://tango-old.appspot.com/ (now under construction)
 
 Yohei Yasukawa
 yasu1000@gmail.com
