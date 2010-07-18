@@ -1,0 +1,4 @@
+TODO:
+1. Read 10 data with 1 query for reducing workload on Google App Engine
+2. Reply several topics with one execution
+3. Refactoring all codes into bottom-up style codes
