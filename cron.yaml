@@ -5,5 +5,10 @@ cron:
   timezone: Asia/Tokyo
 - description: reply_service
   url: /cron/reply
-  schedule: every 5 minutes
+  schedule: every 2 minutes
   timezone: Asia/Tokyo
+- description: recent_reply
+  url: /cron/recent_reply
+  schedule: every 12 hours
+  timezone: Asia/Tokyo
+  

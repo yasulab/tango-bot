@@ -13,3 +13,8 @@ class Reply(db.Model):
 	uname = db.StringProperty()
 	datetime = db.DateTimeProperty()
 	#datetime = db.DateTimeProperty(auto_now_add=True)
+
+class Odai(db.Model):
+	text = db.StringProperty()
+	uname = db.StringProperty()
+	datetime = db.DateTimeProperty()
